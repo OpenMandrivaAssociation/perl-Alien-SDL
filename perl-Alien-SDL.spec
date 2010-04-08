@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Building, finding and using SDL binaries
 License:    GPL+ or Artistic
@@ -12,6 +12,7 @@ Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Alien/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires: libSDL-devel
+BuildRequires: libSDL_Pango-devel
 BuildRequires: libSDL_gfx-devel
 BuildRequires: libSDL_image-devel
 BuildRequires: libSDL_mixer-devel
