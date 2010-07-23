@@ -11,14 +11,7 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Alien/%{upstream_name}-%{upstream_version}.tar.gz
 
-BuildRequires: libSDL-devel
-BuildRequires: libSDL_Pango-devel
-BuildRequires: libSDL_gfx-devel
-BuildRequires: libSDL_image-devel
-BuildRequires: libSDL_mixer-devel
-BuildRequires: libSDL_net-devel
-BuildRequires: libSDL_sound-devel
-BuildRequires: libSDL_ttf-devel
+BuildRequires: SDL-devel
 BuildRequires: perl(Archive::Extract)
 BuildRequires: perl(Archive::Tar)
 BuildRequires: perl(Archive::Zip)
