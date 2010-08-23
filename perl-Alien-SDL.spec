@@ -1,5 +1,5 @@
 %define upstream_name    Alien-SDL
-%define upstream_version 1.412
+%define upstream_version 1.413
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -41,7 +41,7 @@ build SDL & co. from source codes.
 %setup -q -n %{upstream_name}-%{upstream_version}
 
 %build
-echo | %{__perl} Build.PL installdirs=vendor
+echo 1 | %{__perl} Build.PL installdirs=vendor
 ./Build
 
 %check
