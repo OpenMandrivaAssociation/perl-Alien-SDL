@@ -22,7 +22,7 @@ BuildRequires: perl(File::Find)
 BuildRequires: perl(File::Path)
 BuildRequires: perl(File::ShareDir)
 BuildRequires: perl(File::Spec)
-BuildRequires: perl(File::Temp)
+BuildRequires: perl(File::Which)
 BuildRequires: perl(Module::Build)
 BuildRequires: perl(Text::Patch)
 Obsoletes: %{name} < %{version}-%{release}
