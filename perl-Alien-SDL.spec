@@ -15,6 +15,7 @@ BuildRequires: SDL-devel
 BuildRequires: perl(Archive::Extract)
 BuildRequires: perl(Archive::Tar)
 BuildRequires: perl(Archive::Zip)
+BuildRequires: perl(Capture::Tiny)
 BuildRequires: perl(Digest::SHA)
 BuildRequires: perl(ExtUtils::CBuilder)
 BuildRequires: perl(File::Fetch)
