@@ -1,5 +1,5 @@
 %define upstream_name    Alien-SDL
-%define upstream_version 1.423
+%define upstream_version 1.424
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
