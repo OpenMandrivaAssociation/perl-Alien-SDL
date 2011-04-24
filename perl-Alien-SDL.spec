@@ -1,9 +1,9 @@
 %define upstream_name    Alien-SDL
-%define upstream_version 1.425
+%define upstream_version 1.426
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Building, finding and using SDL binaries
 License:    GPL+ or Artistic
@@ -28,7 +28,7 @@ BuildRequires: perl(Module::Build)
 BuildRequires: perl(Text::Patch)
 Obsoletes: %{name} < %{version}-%{release}
 
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
+
 
 %description
 Please see the Alien manpage for the manifesto of the Alien namespace.
