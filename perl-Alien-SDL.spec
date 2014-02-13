@@ -11,7 +11,7 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Alien/%{upstream_name}-%{upstream_version}.tar.gz
 
-BuildRequires:	pkgconfig(sdl)‎
+BuildRequires:	pkgconfig(sdl)
 BuildRequires:	perl(Archive::Extract)
 BuildRequires:	perl(Archive::Tar)
 BuildRequires:	perl(Archive::Zip)
