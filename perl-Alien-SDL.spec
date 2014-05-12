@@ -1,10 +1,11 @@
 %define upstream_name    Alien-SDL
-%define upstream_version 1.436
+%define upstream_version 1.442
 
 Summary:	Building, finding and using SDL binaries
+
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	7
+Release:	1
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -52,4 +53,5 @@ echo 1 | %{__perl} Build.PL installdirs=vendor
 %doc META.yml Changes README LICENSE
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 

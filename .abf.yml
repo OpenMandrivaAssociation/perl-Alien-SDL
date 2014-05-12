@@ -1,2 +1,4 @@
+removed_sources:
+  Alien-SDL-1.436.tar.gz: 602ff9ea54de61145ad4ddda704d64114f977f4a
 sources:
-  "Alien-SDL-1.436.tar.gz": 602ff9ea54de61145ad4ddda704d64114f977f4a
+  Alien-SDL-1.442.tar.gz: 18c2edc38c8b0a0361efe38a6ace7eb940308aa2
