@@ -27,6 +27,7 @@ BuildRequires:	perl(File::Temp)
 BuildRequires:	perl(File::Which)
 BuildRequires:	perl(Module::Build)
 BuildRequires:	perl(Text::Patch)
+BuildRequires:  perl(JSON::PP)
 
 %description
 Please see the Alien manpage for the manifesto of the Alien namespace.
