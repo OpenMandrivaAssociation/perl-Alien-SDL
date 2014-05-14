@@ -53,6 +53,7 @@ echo 1 | %{__perl} Build.PL installdirs=vendor
 %files
 %doc META.yml Changes README LICENSE
 %{_mandir}/man3/*
+%{_bindir}/*
 %{perl_vendorlib}/*
 
 
