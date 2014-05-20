@@ -1,7 +1,8 @@
 %define upstream_name    Alien-SDL
-%define upstream_version 1.442
+%define upstream_version 1.444
 
 Summary:	Building, finding and using SDL binaries
+
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -55,5 +56,6 @@ echo 1 | %{__perl} Build.PL installdirs=vendor
 %{_mandir}/man3/*
 %{_bindir}/*
 %{perl_vendorlib}/*
+
 
 
